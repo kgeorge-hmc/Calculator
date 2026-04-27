@@ -9,7 +9,7 @@ let clear_all = false;
 
 function App() {
   const [display, setDisplay] = useState("0");
-  const [currentOperator, setCurrentOperator] = useState("0");
+  const [currentOperator, setCurrentOperator] = useState("");
 
   const handleNumberClick = (num: number) => {
     clear_all = false;
