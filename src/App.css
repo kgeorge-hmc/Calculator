@@ -1,3 +1,12 @@
+:root {
+  --bg-color: #202124;
+  --button-bg: #111;
+  --button-hover-bg: #333;
+  --display-bg: #57ebad;
+  --active-bg: #57ebad;
+  --active-hover-bg: #afe9d1;
+}
+
 main {
   height: 100vh;
   display: flex;
