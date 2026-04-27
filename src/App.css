@@ -12,11 +12,11 @@ main {
   display: flex;
   justify-content: center;
   align-items: center;
-  background-color: #202124;
+  background-color: var(--bg-color);
 }
 
 section {
-  background: #111;
+  background: var(--button-bg);
   padding: 20px;
   border-radius: 12px;;
 }
@@ -27,7 +27,7 @@ h1 {
 }
 
 .display {
-  background: #ebaa57;
+  background: var(--display-bg);
   color: white;
   font-size: 40px;
   text-align: right;
@@ -52,7 +52,7 @@ button {
 }
 
 button:hover {
-  background: #333;
+  background: var(--button-hover-bg);
 }
 
 .clear-button {
@@ -60,11 +60,11 @@ button:hover {
 }
 
 .active {
-  background: #ebaa57;
+  background: var(--active-bg);
   color: white;
 }
 
 .active:hover {
-  background: #dbb583;
+  background: var(--active-hover-bg);
   color: white;
 }
